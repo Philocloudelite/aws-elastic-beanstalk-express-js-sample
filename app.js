@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = 8080;
 
-app.get('/', (req, res) => res.send('This is myfirst Repo'));
+app.get('/', (req, res) => res.send('i love github and codecommit'));
 
 app.listen(port);
 console.log(`App running on http://localhost:${port}`);
